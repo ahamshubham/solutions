@@ -6,13 +6,12 @@ class MaxSumWithoutAdjacentElements {
                ArrayList<ArrayList<Integer>> input = new ArrayList<ArrayList<Integer>>();
                ArrayList<Integer> row = new ArrayList<Integer>();
                
-               /*
                Random rand = new Random();
                
                for(int i = 0; i < 10000; i++)
                         row.add(rand.nextInt(100));
                
-               */
+               /*
                
                BufferedReader buf = new BufferedReader(new FileReader("MSWAE.txt"));
                String s = buf.readLine();
@@ -21,21 +20,18 @@ class MaxSumWithoutAdjacentElements {
                
                for(int i = 0; i < 10000; i++)
                         row.add(Integer.parseInt(ar1[i]));
-                        
+               */       
                
                input.add(row);
                input.add(row);
                
-               System.out.println(input);
+               //System.out.println(input);
                System.out.println(adjacent(input));
-               System.out.println(count);
-               System.out.println(count1); 
+                
         }
         
         static int maximum_possible_sum_from_index[];
         static ArrayList<Integer> c = new ArrayList<Integer>();
-        static int count = 0;
-        static int count1 = 0;
         
         public static int adjacent(ArrayList<ArrayList<Integer>> a) {
                 ArrayList<Integer> maximum_value_in_each_column_in_a = new ArrayList<Integer>();
