@@ -1,2 +1,2 @@
 # solutions
-Solutions for codeforces and interview-bit problems solved by me
+Mostly includes solutions for competitive programming problems solved by me
